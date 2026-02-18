@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "vaga-facil-web",
+  "main": "frontend/.open-next/worker.js",
+  "compatibility_date": "2025-12-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": "frontend/.open-next/assets",
+    "binding": "ASSETS"
+  }
+}

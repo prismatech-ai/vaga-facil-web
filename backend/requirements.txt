@@ -1,0 +1,35 @@
+# FastAPI e servidor
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Banco de dados
+sqlalchemy==2.0.23
+psycopg[binary]==3.1.14
+psycopg2-binary==2.9.9
+alembic==1.12.1
+
+# Autenticação e segurança
+python-jose[cryptography]==3.3.0
+bcrypt==4.1.2
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Validação e configuração
+pydantic==2.5.0
+pydantic-settings==2.1.0
+email-validator==2.1.0
+
+# Email
+resend==2.19.0
+
+# HTTP Client
+httpx==0.25.1
+requests==2.31.0
+
+# AWS e Cloud Storage
+boto3==1.36.5
+
+# Utilitários
+python-dotenv==1.0.0
+

@@ -1,0 +1,8 @@
+{
+  "name": "vaga-facil-web",
+  "private": true,
+  "scripts": {
+    "build": "cd frontend && pnpm install && npx opennextjs-cloudflare build",
+    "deploy": "npx wrangler deploy"
+  }
+}
